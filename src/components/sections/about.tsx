@@ -28,7 +28,7 @@ export function AboutSection({ content }: { content: AboutContent }) {
           </div>
           
           <Reveal delay={0.3} direction="up">
-            <div className="relative mx-auto aspect-[4/5] w-full max-w-[360px] overflow-hidden rounded-3xl border border-border/50 bg-muted shadow-lg">
+            <div className="relative ml-8 aspect-[4/5] w-full max-w-[360px] overflow-hidden rounded-3xl border border-border/50 bg-muted shadow-lg">
               <img 
                 src="/portrait.jpeg" 
                 alt="Portrait" 

@@ -20,8 +20,8 @@ function getInitialTheme(): ThemeMode {
     return stored
   }
 
-  // Default to dark mode instead of checking system preference
-  return 'dark'
+  // Default to light mode instead of checking system preference
+  return 'light'
 }
 
 function getInitialLocale(): Locale {

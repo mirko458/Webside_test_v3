@@ -39,7 +39,7 @@ export function HeroSection({ content }: { content: HeroContent }) {
         
         {/* Subtitle with better contrast and readability */}
         <Reveal delay={0.3}>
-          <p className="mx-auto mt-8 max-w-2xl text-pretty text-lg sm:text-xl font-medium leading-relaxed text-slate-700 dark:text-slate-200">
+          <p className="mx-auto mt-8 max-w-2xl text-pretty text-lg sm:text-xl font-bold leading-relaxed text-slate-800 dark:text-white drop-shadow-sm">
             {content.subtitle}
           </p>
         </Reveal>

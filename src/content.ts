@@ -1,6 +1,4 @@
-export type ReferenceItem = { industry: string; location: string; title: string; skills: string };
-
-﻿import type { Locale } from '@/lib/utils'
+import type { Locale } from '@/lib/utils'
 
 type Service = { title: string; description: string }
 type Step = { title: string; text: string }
@@ -41,9 +39,9 @@ export const content: Record<Locale, ContentModel> = {
         '<strong class="font-bold text-foreground">20+ Jahre</strong> SAP PLM Erfahrung, inklusive 8 Jahre direkt bei SAP in Walldorf',
         '<strong class="font-bold text-foreground">Spezialisiert</strong> auf Analyse, Konzeption und Umsetzung komplexer Systemintegrationen im SAP PLM Umfeld.',
         '<strong class="font-bold text-foreground">Branchenkenntnisse:</strong> Automotive, Automotive Zulieferer, Maschinenbau, Anlagenbau, Medizintechnik, Telekommunikation, Software',
-        '<strong class="font-bold text-foreground">Fachliche Kernkompetenzen:</strong> iPPE (Integriertes Produkt- und Prozess-Engineering), Freigabe- und Reiefgradmanagement, Änderungsmanagement, Materiastamm, Stücklisten, Stücklistensynchronisation via GSS (Guides Structure Synchronization), Dokumentenverwaltung',
-        '<strong class="font-bold text-foreground">IT-Kernkompetenzen:</strong> ABAP OO, SAP UI5, Fiori, SAP PDMI, HANA CDS Views,ABAP Web Dynpro, Floor Plan Manager (FPM), Excel VBA, Open SQL, SAP Script, Smartforms',
-        '<strong class="font-bold text-foreground">Fokus</strong>  auf nachhaltige Architekturen, saubere Implementierung und verlässlichen Betrieb',
+        '<strong class="font-bold text-foreground">Fachliche Kernkompetenzen:</strong> iPPE (Integriertes Produkt- und Prozess-Engineering), Freigabe- und Reifegradmanagement, Änderungsmanagement, Materialstamm, Stücklisten, Stücklistensynchronisation via GSS (Guided Structure Synchronization), Dokumentenverwaltung',
+        '<strong class="font-bold text-foreground">IT-Kernkompetenzen:</strong> ABAP OO, SAP UI5, Fiori, SAP PDMI, HANA CDS Views, ABAP Web Dynpro, Floor Plan Manager (FPM), Excel VBA, Open SQL, SAP Script, Smartforms',
+        '<strong class="font-bold text-foreground">Fokus</strong> auf nachhaltige Architekturen, saubere Implementierung und verlässlichen Betrieb',
       ]
     },
     services: {
@@ -111,14 +109,14 @@ references: {
           {
                   industry: 'Software & Automotive',
                   location: 'Walldorf / China, Shanghai',
-                  title: 'Lösungsarchitektur zder Entwicklungsstückliste mit Integration der geometrischen Prozesse durch Einbindung der Visualisierungsmöglichkeiten von SAP Visual Enterprise',
-                  skills: 'SAP Visual Manufacturing Planner, ABAB OO'
+                  title: 'Lösungsarchitektur der Entwicklungsstückliste mit Integration der geometrischen Prozesse durch Einbindung der Visualisierungsmöglichkeiten von SAP Visual Enterprise',
+                  skills: 'SAP Visual Manufacturing Planner, ABAP OO'
           },
           {
                   industry: 'Medizintechnik',
                   location: 'Fulda',
                   title: 'Konzeption und Implementierung eines objektübergreifenden Status- und Reifegradmanagements im SAP PLM inkl. CAD Integration',
-                  skills: 'SAP DVS, SAP ECTR, Materialstamm, Pronovia ConfigManagerABAP OO'
+                  skills: 'SAP DVS, SAP ECTR, Materialstamm, Pronovia ConfigManager, ABAP OO'
           },
           {
                   industry: 'Automotive',
@@ -146,7 +144,7 @@ references: {
           },
           {
                   industry: 'Automotive Zulieferer',
-                  location: 'Deutschland',
+                  location: 'Stuttgart',
                   title: 'Einführung der SAP GSS für eine iPPE zu BOM Synchronisation inkl. Migration von Bestandsdaten',
                   skills: 'ABAP OO, Web Dynpro'
           },
@@ -154,7 +152,7 @@ references: {
                   industry: 'Aerospace',
                   location: 'Schweiz',
                   title: 'Implementierung eines genehmigenden Änderungsmanagements auf Basis des SAP PLM 7 Engineering Change Records',
-                  skills: 'SAP PLM7, SAPO ECR, ABAP OO, Web Dynpro'
+                  skills: 'SAP PLM7, SAP ECR, ABAP OO, Web Dynpro'
           },
           {
                   industry: 'Automotive',
@@ -170,8 +168,8 @@ references: {
           },
           {
                   industry: 'Öffentlicher Rundfunk',
-                  location: 'Deutschland',
-                  title: 'Einführung von EHP2 Employer Self Service (ESS) für SAP Travel Management im Portal',
+                  location: 'München',
+                  title: 'Einführung von EHP2 Employee Self Service (ESS) für SAP Travel Management im Portal',
                   skills: 'ABAP Web Dynpro, SAP FPM (Floor Plan Manager)'
           },
           {
@@ -223,230 +221,204 @@ references: {
   },
   en: {
     nav: {
-      about: 'About',
+      about: 'About Me',
       services: 'Services',
-      approach: 'Approach',
+      approach: 'Methodology',
       references: 'References',
       contact: 'Contact'
     },
     hero: {
       badge: 'Mirko Quintern – SAP PLM Solution Architect',
       title: 'Quintern PLM Consulting',
-      subtitle:
-        '20+ years of SAP PLM experience, including 8 years directly at SAP Walldorf. Specialized in the analysis and implementation of complex system integrations within the SAP PLM environment.',
-      motto: '“I believe that true innovation happens where complex things become simple.”',
-      primaryCta: 'Start a project',
-      secondaryCta: 'View services'
+      subtitle: '20+ Years of SAP PLM Experience',
+      motto: '„We believe that true innovation emerges when complexity is made simple“',
+      primaryCta: 'Inquire Now',
+      secondaryCta: 'View Services'
     },
     about: {
       title: 'About Me',
-      lead:
-        'As an <strong class="font-bold text-foreground">SAP PLM Solution Architect</strong>, Application Consultant, and Developer, I offer deep expertise in demanding SAP environments to bridge the gap between business and IT.<br /><br /><strong class="font-bold text-foreground">Specialized</strong> in the analysis, design, and implementation of complex system integrations in the SAP PLM environment.',
+      lead: 'As an <strong class="font-bold text-foreground">SAP PLM Solution Architect</strong>, Application Consultant, and Developer, I offer deep expertise in demanding SAP environments to optimally connect business and IT.',
       points: [
-        '<strong class="font-bold text-foreground">20+ years</strong> of SAP PLM experience, including 8 years directly at SAP Walldorf',
-        '<strong class="font-bold text-foreground">Industry expertise:</strong> Automotive, Automotive Supplier, Mechanical Engineering, Plant Engineering, Medical Technology, Telecoms, Software',
-        '<strong class="font-bold text-foreground">Professional core skills:</strong> iPPE (Integrated Product and Process Engineering), Release and Maturity Management, Change Management, Material Master, Bills of Material (BOM), BOM synchronization via GSS (Guided Structure Synchronization), Document Management',
-        '<strong class="font-bold text-foreground">IT core skills:</strong> ABAP OO, SAP UI5, Fiori, SAP PDMI, HANA CDS Views, ABAP Web Dynpro, Floor Plan Manager (FPM), Excel VBA, Open SQL, SAP Script, Smartforms',
+        '<strong class="font-bold text-foreground">20+ Years</strong> of SAP PLM experience, including 8 years directly at SAP in Walldorf',
+        '<strong class="font-bold text-foreground">Specialized</strong> in the analysis, design, and implementation of complex system integrations in the SAP PLM environment.',
+        '<strong class="font-bold text-foreground">Industry Expertise:</strong> Automotive, Automotive Suppliers, Mechanical Engineering, Plant Engineering, Medical Technology, Telecommunications, Software',
+        '<strong class="font-bold text-foreground">Professional Core Competencies:</strong> iPPE (Integrated Product and Process Engineering), Release and Maturity Management, Change Management, Material Master, Bills of Material (BOM), BOM Synchronization via GSS (Guided Structure Synchronization), Document Management',
+        '<strong class="font-bold text-foreground">IT Core Competencies:</strong> ABAP OO, SAP UI5, Fiori, SAP PDMI, HANA CDS Views, ABAP Web Dynpro, Floor Plan Manager (FPM), Excel VBA, Open SQL, SAP Script, Smartforms',
         '<strong class="font-bold text-foreground">Focus</strong> on sustainable architectures, clean implementation, and reliable operations'
       ]
     },
     services: {
       title: 'Services',
-      intro: 'End-to-end support from architecture design to technical realization.',
+      intro: 'Holistic support – from professional analysis and conceptual design, to software architecture and technical implementation.',
       items: [
+        {
+          title: 'Application Consulting',
+          description: 'In-depth procedural expertise in SAP PLM and its associated objects and applications.'
+        },
         {
           title: 'Solution Architecture',
           description: 'Design and conceptualization of highly scalable SAP PLM solutions and system landscapes.'
         },
         {
           title: 'Software Development',
-          description: 'High-quality implementation services utilizing ABAP OO, Fiori, and HANA CDS Views.'
-        },
-        {
-          title: 'Application Consulting',
-          description: 'In-depth process knowledge in SAP PLM, iPPE, and Guided Structure Synchronization (GSS).'
+          description: 'High-quality implementations using ABAP OO, SAP UI5, Fiori, and HANA CDS Views.'
         },
         {
           title: 'System Integration',
-          description: 'Secure connection of third-party systems, including PDM/PLM integrations like Dassault 3DX and Siemens Teamcenter.'
-        }
-      ]
-    },
-    approach: {
-      title: 'Methodology',
-      intro: 'A proven approach for efficient and transparent project delivery.',
-      steps: [
-        {
-          title: '1. Analysis',
-          text: 'Assessment of the current state, requirement gathering, and definition of the target architecture.'
-        },
-        {
-          title: '2. Design',
-          text: 'Creation of business and IT blueprints with clear responsibilities and feasibility checks.'
-        },
-        {
-          title: '3. Implementation',
-          text: 'Agile or traditional realization in ABAP, Fiori, and SAP PLM with the highest quality standards.'
-        },
-        {
-          title: '4. Go-Live & Support',
-          text: 'Secure knowledge transfer, system stabilization, and support during productive operations.'
+          description: 'Secure connection of third-party systems, including PDM/PLM integrations such as Dassault 3DX and Siemens Teamcenter.'
         }
       ]
     },
     references: {
       title: 'References',
-      intro: 'Excerpt of relevant integration and development projects:',
+      intro: 'Selection of relevant integration and development projects:',
       items: [
-          {
-                  industry: 'Automotive',
-                  location: 'UK',
-                  title: 'Interface Dassault 3DX Delmia to SAP Material, Classic BOM & iPPE, based on SAP PDMI',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Automotive Supplier',
-                  location: 'Germany',
-                  title: 'Introduction of SAP GSS for fully automated EBOM to MBOM synchronisation from Teamcenter',
-                  skills: 'ABAP OO, Web Dynpro'
-          },
-          {
-                  industry: 'Mechanical Engineering',
-                  location: 'Germany',
-                  title: 'Implementation of SAP GSS for EBOM/MBOM synchronisation, including legacy data migration and custom enhancements',
-                  skills: 'ABAP OO, Web Dynpro'
-          },
-          {
-                  industry: 'Automotive Supplier',
-                  location: 'Germany',
-                  title: 'Introduction of variant configuration via SAP iPPE for JIT delivery schedules and Siemens Capital interface',
-                  skills: ''
-          },
-          {
-                  industry: 'Plant Engineering',
-                  location: 'Germany',
-                  title: 'Development of an SAP UI5 / Fiori web application for supplier communication based on SAP HANA',
-                  skills: 'SAP HANA, SAP UI5, Fiori'
-          },
-          {
-                  industry: 'Medical Technology',
-                  location: 'Germany/Switzerland',
-                  title: 'Global implementation of SAP Product Structure Management (PSM) and PLM enhancements for ECRs',
-                  skills: ''
-          },
-          {
-                  industry: 'Telecoms & Mechanical Eng.',
-                  location: 'Germany',
-                  title: 'Global SAP PLM implementation and web-app development incl. complex migration of 1.2m legacy records',
-                  skills: ''
-          },
-          {
-                  industry: 'Software & Automotive',
-                  location: 'China/Germany',
-                  title: 'Solution architecture for an SAP PLM project mapping engineering BOMs incl. CAD integration and Visual Enterprise',
-                  skills: ''
-          },
-          {
-                  industry: 'Medical Technology',
-                  location: 'Germany',
-                  title: 'Conception and implementation of cross-object status and maturity level management in SAP PLM',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Automotive',
-                  location: 'Germany',
-                  title: 'Long-term support and development of custom SAP enhancements for mapping complex vehicle configurations in SAP iPPE',
-                  skills: ''
-          },
-          {
-                  industry: 'Software (SAP)',
-                  location: 'Germany',
-                  title: 'Creation of an interface for manufacturing BOMs from Dassault 3DX Delmia to SAP iPPE based on SAP PDMI',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Special Glass',
-                  location: 'Germany',
-                  title: 'Implementation of requirements for Engineering Change Record, Process Route Workflows & DMS',
-                  skills: 'ABAP OO, Web Dynpro'
-          },
-          {
-                  industry: 'Aerospace',
-                  location: 'Germany',
-                  title: 'General PLM optimizations in the SAP system, including release processes for documents and materials',
-                  skills: 'ABAP OO, SAP Script, Smartforms, Adobe LCM'
-          },
-          {
-                  industry: 'Medical Technology',
-                  location: 'Germany',
-                  title: 'SAP ECTR implementation in connection with the Pronovia Configuration Manager',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Automotive Supplier',
-                  location: 'Germany',
-                  title: 'Introduction of SAP GSS for an iPPE to BOM synchronization incl. legacy data migration',
-                  skills: 'ABAP OO, Web Dynpro'
-          },
-          {
-                  industry: 'Aerospace',
-                  location: 'Switzerland',
-                  title: 'Implementation of an approval-based change management based on SAP PLM 7 Engineering Change Records',
-                  skills: ''
-          },
-          {
-                  industry: 'Mechanical Engineering',
-                  location: 'Germany',
-                  title: 'Custom enhancements for CAD-Desktop and Pronovia GCP',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Automotive',
-                  location: 'Germany',
-                  title: 'Migration of variant configuration data from the legacy system MATRIX to SAP iPPE',
-                  skills: 'ABAP OO, ABAP to XLSX, Excel VBA'
-          },
-          {
-                  industry: 'Plant Engineering',
-                  location: 'Germany',
-                  title: 'Creation of an application for purchase requisitions',
-                  skills: 'ABAP OO'
-          },
-          {
-                  industry: 'Medical Technology',
-                  location: 'Germany',
-                  title: 'Migration of master data to ProNovia configuration types as part of a PLM implementation',
-                  skills: 'ABAP'
-          },
-          {
-                  industry: 'Public Broadcasting',
-                  location: 'Germany',
-                  title: 'Introduction of EHP2 Employer Self Service (ESS) for SAP Travel Management in the Portal',
-                  skills: 'ABAP Web Dynpro, Floor Plan Manager'
-          },
-          {
-                  industry: 'Insurance',
-                  location: 'Germany',
-                  title: 'Creation of a Web-Dynpro application for the field service for customer, contract, and claims overviews',
-                  skills: 'ABAP Web Dynpro'
-          }
-  ]
+        {
+          industry: 'Automotive',
+          location: 'England, Gaydon',
+          title: 'Interface Dassault 3DX Delmia to SAP Material, Classic BOM & iPPE',
+          skills: 'SAP PDMI, iPPE, BOM, Material Master, Change Management, ABAP OO'
+        },
+        {
+          industry: 'Automotive Supplier',
+          location: 'Friedrichshafen',
+          title: 'Implementation of SAP GSS for fully automated EBOM-to-MBOM synchronization from Teamcenter',
+          skills: 'GSS, BOM, Change Management, ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Mechanical Engineering',
+          location: 'Zweibrücken',
+          title: 'Implementation of SAP GSS for EBOM/MBOM synchronization including extensive migration of legacy data',
+          skills: 'GSS, BOM, Change Management, ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Automotive Supplier',
+          location: 'Nuremberg',
+          title: 'Variant configuration using SAP iPPE for JIT calls and interface from Siemens Capital to SAP iPPE',
+          skills: 'iPPE, Change Management, ABAP OO'
+        },
+        {
+          industry: 'Plant Engineering',
+          location: 'Munich',
+          title: 'Development of an SAP UI5 / Fiori web application for supplier communication for bulk orders',
+          skills: 'SAP UI5, Fiori, SAP HANA, CDS Views, ABAP OO'
+        },
+        {
+          industry: 'Medical Technology',
+          location: 'Mannheim / Switzerland, Rotkreuz',
+          title: 'Global implementation of SAP Product Structure Management (PSM) for product configurations and PLM extensions (ECR)',
+          skills: 'iPPE, SAP ECR, Material Master, ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Software & Automotive',
+          location: 'Walldorf / China, Shanghai',
+          title: 'Solution architecture of the engineering BOM with integration of geometric processes by embedding visualization capabilities of SAP Visual Enterprise',
+          skills: 'SAP Visual Manufacturing Planner, ABAP OO'
+        },
+        {
+          industry: 'Medical Technology',
+          location: 'Fulda',
+          title: 'Concept and implementation of cross-object status and maturity management in SAP PLM including CAD integration',
+          skills: 'SAP DVS, SAP ECTR, Material Master, Pronovia ConfigManager, ABAP OO'
+        },
+        {
+          industry: 'Automotive',
+          location: 'Munich',
+          title: 'Long-term support and development of SAP add-on functions to map complex vehicle product configurations in SAP iPPE',
+          skills: 'iPPE, BOM, Excel VBA, ABAP OO'
+        },
+        {
+          industry: 'Software (SAP)',
+          location: 'Walldorf',
+          title: 'Creation of an interface for manufacturing BOMs from Dassault 3DX Delmia to SAP iPPE',
+          skills: 'iPPE, SAP PDMI, ABAP OO'
+        },
+        {
+          industry: 'Specialty Glass',
+          location: 'Mainz',
+          title: 'Implementation of requirements for Engineering Change Record, Process Route Workflows & DMS',
+          skills: 'DVS, SAP ECR, ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Aerospace',
+          location: 'Herborn',
+          title: 'General PLM optimizations in the SAP system, including establishment of release processes for documents and materials',
+          skills: 'BOM, Material Master, Change Management, Excel VBA, SAP Script, Smartforms, Adobe Lifecycle Manager, ABAP OO'
+        },
+        {
+          industry: 'Automotive Supplier',
+          location: 'Germany',
+          title: 'Implementation of SAP GSS for iPPE to BOM synchronization including migration of legacy data',
+          skills: 'ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Aerospace',
+          location: 'Switzerland',
+          title: 'Implementation of an approving change management based on SAP PLM 7 Engineering Change Records',
+          skills: 'SAP PLM7, SAP ECR, ABAP OO, Web Dynpro'
+        },
+        {
+          industry: 'Automotive',
+          location: 'Mannheim',
+          title: 'Migration of variant configuration data from the legacy system MATRIX into SAP iPPE',
+          skills: 'iPPE, Change Management, ABAP OO, ABAP to XLSX, Excel VBA'
+        },
+        {
+          industry: 'Medical Technology',
+          location: 'Hanau',
+          title: 'Migration of master data into ProNovia configuration types as part of a PLM implementation',
+          skills: 'ProNovia Config Manager, ABAP OO'
+        },
+        {
+          industry: 'Public Broadcasting',
+          location: 'Germany',
+          title: 'Implementation of EHP2 Employee Self Service (ESS) for SAP Travel Management in the portal',
+          skills: 'ABAP Web Dynpro, SAP FPM (Floor Plan Manager)'
+        },
+        {
+          industry: 'Insurance',
+          location: 'Braunschweig',
+          title: 'Creation of a Web Dynpro application for field service for customer, contract, and claims overview',
+          skills: 'ABAP Web Dynpro'
+        }
+      ]
+    },
+    approach: {
+      title: 'Methodology',
+      intro: 'A clear structure is the key to successful system integration.',
+      steps: [
+        {
+          title: 'Analysis',
+          text: 'Thorough recording of the actual state and specific business requirements.'
+        },
+        {
+          title: 'Concept',
+          text: 'Development of sustainable architectures and precise process mapping.'
+        },
+        {
+          title: 'Realization',
+          text: 'Clean IT implementation with a focus on maintainability and performance.'
+        },
+        {
+          title: 'Rollout',
+          text: 'Secure go-live, comprehensive testing, and sustainable support.'
+        }
+      ]
     },
     contact: {
       title: 'Contact',
-      intro: 'Share your initiative in a few lines. I will respond with a structured first assessment shortly.',
+      intro: 'Looking for an experienced partner for your SAP PLM project? Let’s talk.',
       name: 'Name',
       email: 'Email',
       message: 'Message',
-      cta: 'Send message',
-      success: 'Thank you. Your message was sent successfully.',
-      error: 'Your message could not be sent. Please try again.'
+      cta: 'Send Message',
+      success: 'Thank you! Your message has been sent successfully.',
+      error: 'An error occurred. Please try again later or contact me directly via email.'
     },
     footer: {
-      line: 'Quintern Consulting · Mirko Quintern · SAP PLM Solution Architect',
+      line: 'Quintern PLM Consulting',
       impressum: 'Imprint',
       datenschutz: 'Privacy Policy'
     }
   }
-}
-
+};
