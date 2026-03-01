@@ -19,9 +19,9 @@ export function HeroSection({ content }: { content: HeroContent }) {
         <img
           src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="Modern architectural bright interior"
-          className="h-full w-full object-cover opacity-80 dark:opacity-60 grayscale"
+          className="h-full w-full object-cover opacity-90 dark:opacity-60 grayscale"
         />
-        <div className="absolute inset-0 bg-background/20 dark:bg-background/60 backdrop-blur-[6px]" />
+        <div className="absolute inset-0 bg-background/20 dark:bg-background/60 backdrop-blur-[4px]" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-background to-transparent" />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-background to-transparent" />
       </div>
