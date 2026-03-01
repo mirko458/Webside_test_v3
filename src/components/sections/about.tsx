@@ -30,7 +30,7 @@ export function AboutSection({ content }: { content: AboutContent }) {
           <Reveal delay={0.3} direction="up">
             <div className="relative ml-8 aspect-[4/5] w-full max-w-[360px] overflow-hidden rounded-3xl border border-border/50 bg-muted shadow-lg">
               <img 
-                src="/portrait.jpeg" 
+                src={`${import.meta.env.BASE_URL}portrait.jpeg`}
                 alt="Portrait" 
                 className="h-full w-full object-cover object-top"
               />

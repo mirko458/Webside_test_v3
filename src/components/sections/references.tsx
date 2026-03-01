@@ -47,7 +47,7 @@ export function ReferencesSection({ content }: { content: ReferenceContent }) {
       <div 
         className="absolute inset-0 z-0 pointer-events-none opacity-[0.25] dark:opacity-[0.4]"
         style={{
-          backgroundImage: 'url(/world-map.svg)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}world-map.svg)`,
           backgroundSize: '100%',
           backgroundPosition: 'top center',
           backgroundRepeat: 'no-repeat'

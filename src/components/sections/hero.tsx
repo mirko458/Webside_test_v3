@@ -17,7 +17,7 @@ export function HeroSection({ content }: { content: HeroContent }) {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
-          src="/hero-bg.jpg"
+          src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="Modern architectural bright interior"
           className="h-full w-full object-cover opacity-80 dark:opacity-60 grayscale"
         />

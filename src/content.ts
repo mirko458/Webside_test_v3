@@ -1,3 +1,4 @@
+export type ReferenceItem = { industry: string; location: string; title: string; skills: string };
 import type { Locale } from '@/lib/utils'
 
 type Service = { title: string; description: string }
